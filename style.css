@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    /* padding: non; */
+}
+
+body {
+    background-image: url("ABCD.webp");
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(80, 185, 74);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navli {
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.navlink:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 98, 40);
+    transition: .7s;
+    border: 2px solid rgb(80, 185, 74);
+}
+
+
+.cube {
+    text-align: center;
+}
+
+.cube a {
+
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.hi {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hi img {
+    border-radius: 6px;
+    margin: 10px;
+    border: 2px solid;
+}
+
+.color {
+    text-align: center;
+}
+
+.color h2 p {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.table {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 10% 23%;
+    background-color: green;
+}
+
+td,
+th {
+    border: 3px solid #000000;
+    text-align: left;
+    padding: 9px;
+    justify-content: space-evenly;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.ABCD {
+    color: black;
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: 990;
+    justify-content: space-around;
+    background-color: rgb(100, 37, 159);
+    border-radius: 9px;
+}
+
+.ABCD li {
+    list-style-type: none;
+}
+
+#concept_of_formula {
+    color: white;
+    border-radius: 5px;
+}
+
+.secondimg {
+    border-radius: 8px;
+    border: 4px dotted red;
+}
+
+.rand {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.hello ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.hello ul li a {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3 all;
+}
+
+.hello ul li a:hover {
+    color: rgb(199, 209, 199);
+}
+
+.hover-line::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(179, 199, 179);
+    transition: width .3;
+}
+
+.meme {
+    border: 3px solid rgb(75, 176, 75);
+    border-radius: 12%;
+}
+
+.hover-line:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+.bye {
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.yt {
+    display: flexbox;
+    width: 100%;
+}
+
+.yt a {
+    color: rgb(0, 9, 39);
+}
+
+.yt ul li {
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: rgb(144, 142, 142);
+    width: 100%;
+}
